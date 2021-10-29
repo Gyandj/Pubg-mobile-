@@ -1,2 +1,15 @@
-# Pubg-mobile-
-Ami to 
+
+#0 /home/instahilecinnet/public_html/app/Controllers/ToolsController.php(991): Instagram->getUserInfoByName('https://instagr...')
+#1 [internal function]: App\Controllers\ToolsController->SendFollowerAction()
+#2 /home/instahilecinnet/public_html/src/Wow/Core/Controller.php(79): call_user_func_array(Array, Array)
+#3 /home/instahilecinnet/public_html/src/Wow/Core/Dispatcher.php(260): Wow\Core\Controller->init('SendFollowerAct...', Array)
+#4 /home/instahilecinnet/public_html/src/Wow/Engine.php(380): Wow\Core\Dispatcher::dispatchRoute(Object(Wow\Net\Route), Object(Wow\Net\Request))
+#5 /home/instahilecinnet/public_html/src/Wow/Core/Dispatcher.php(194): Wow\Engine->_start()
+#6 /home/instahilecinnet/public_html/src/Wow/Core/Dispatcher.php(147): Wow\Core\Dispatcher::invokeMethod(Array, Array)
+#7 /home/instahilecinnet/public_html/src/Wow/Core/Dispatcher.php(47): Wow\Core\Dispatcher::execute(Array, Array)
+#8 /home/instahilecinnet/public_html/src/Wow/Engine.php(82): Wow\Core\Dispatcher->run('start', Array)
+#9 /home/instahilecinnet/public_html/src/Wow/Core/Dispatcher.php(194): Wow\Engine->__call('start', Array)
+#10 /home/instahilecinnet/public_html/src/Wow/Wow.php(41): Wow\Core\Dispatcher::invokeMethod(Array, Array)
+#11 /home/instahilecinnet/public_html/instaBOM.php(5703): Wow::__callStatic('start', Array)
+#12 /home/instahilecinnet/public_html/index.php(12): require_once('/home/instahile...')
+#13 {main}
